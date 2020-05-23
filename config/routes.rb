@@ -26,5 +26,7 @@ Rails.application.routes.draw do
     get "/categoryusers" => "categoryusers#index"
     get "/categoryusers/:id" => "categoryusers#show"
     patch "/categoryusers/:id" => "categoryusers#update"
+
+    get "/*path" => proc { [200, {}, [ActionView::Base.new.render(file: 'public/index.html')]] }
   end
 end
