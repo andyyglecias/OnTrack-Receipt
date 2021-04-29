@@ -1,6 +1,6 @@
-user = User.new(first_name: "Andy", last_name: "Yglecias", email: "andy@email.com", password: "password", password_confirmation: "password")
+user = User.new(first_name: "Andy", last_name: "Yglecias", email: "andy@email.com", password: "Chicago23", password_confirmation: "Chicago23")
 user.save
-user = User.new(first_name: "Peter", last_name: "Jang", email: "peter@email.com", password: "password", password_confirmation: "password")
+user = User.new(first_name: "Peter", last_name: "Jang", email: "peter@email.com", password: "Chicago23", password_confirmation: "Chicago23")
 user.save
 
 category = Category.new(name: "Clothing")
